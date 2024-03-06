@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- <link rel="stylesheet"nhref="{{ url_for('static', filename='css/style.css') }}"/> -->
+    <title>Image Captioning in Nepali</title>
+    <link rel="icon" href="{{ url_for('static', filename='ssicon.ico') }}" type="image/x-icon">
+  </head>
+  
+  <form action="{{url_for('caption')}}" enctype="multipart/form-data"></form>
+  
+  <body>
+    <div class="header">
+      <h1><em> Image Captioning In</em> <strong>नेपाली</strong></h1>
+    </div>
+
+    <p> <i>Click on </i> 'Choose File' <i> to upload and then</i> 'Predict Caption' <i> to Predict  </i><strong>नेपाली</strong> <i>Caption for your Image.</i> </p>
+
+    <div class="icon">
+      <img src="{{ url_for('static', filename='uploadicon.png') }}" />
+    </div> 
+
+  <div class="upload-btn-wrapper">
+    <form action="{{url_for('caption')}}" method="post" enctype="multipart/form-data">
+      <!-- <label class="btn" for="myfile">Upload Image</label>
+      <input type="file" name="myfile" id="myfile" style="display:none" />
+      <input type="submit" value="Submit"> -->
+      <input type="file" name='file1'>
+      <input type="submit" name="btn" value='Predict Caption' class='btn btn-warning'> 
+
+  </form>
+    <!-- <button class="btn">Upload Image</button>
+    <input type="file" name="myfile" id="myfile" /> -->
+</div> 
+
+  </body>
+</html>
+
+

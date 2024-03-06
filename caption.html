@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Uploaded</title>
+    <link rel="icon" href="{{ url_for('static', filename='ssicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="uploadedimage">
+        <img src="{{ url_for('static', filename='cat.jpg') }}"/>
+    </div>
+    <div class="nepcaption">
+        <p> बाटो काती रहेको एउटा सेतो बिरालो  </p>
+    </div>
+    <a href="javascript:history.back()">Go Back</a>
+    
+</body>
+</html>

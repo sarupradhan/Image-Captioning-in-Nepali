@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e4f5e2; /* Set a background color for the body */
+    text-align: center;
+  }
+
+  .header {
+    text-align: center;
+    background-color: rgb(106, 149, 167);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    padding: 0px 10px; /* Adjusted padding in relation to font size */
+    max-width: 45%;
+    margin: auto; /* Center the heading */
+  }
+
+  .navbar {
+    background-color: #f8f9fa; /* Set a background color for the navbar */
+    padding: 8px;
+    box-shadow: 0px 4px 2px -2px rgb(172, 172, 172); /* Add a subtle shadow */
+  }
+
+  .icon {
+    text-align: center;
+    margin-top: 90px; /* Adjust the margin as needed */
+  }
+
+  .icon img {
+    max-width: 100px; /* Adjust the size of the icon */
+    height: auto;
+  }
+
+  .uploadedimage {
+    text-align: center;
+    margin-top: 90px; /* Adjust the margin as needed */
+  }
+
+  .uploadedimage img {
+    max-width: 600px; /* Adjust the size of the icon */
+    height: auto;
+  }
+
+  .nepcaption {
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  /* .upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-btn-wrapper .btn:hover {
+    background-color: #f1f1f1;
+    color: #478e83;
+}
+.upload-btn-wrapper:hover {
+    background-color: #293c2a;
+} */
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #368a39;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #7dc080;
+}
